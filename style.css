@@ -7,6 +7,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.width {
+  max-width: 1250px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+}
+
+.no-width {
+  width: 100vw;
+
+}
+
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -15,11 +28,11 @@ nav {
 }
 
 nav svg {
-    width: auto;
-    height: 2rem;
-    /* fill: #ff6933; */
-    color: green;
-    stroke: #ff6933;
+  width: auto;
+  height: 2rem;
+  fill: #ff6933;
+  color: green;
+  stroke: #ff6933;
 }
 
 nav img {
@@ -57,15 +70,16 @@ nav ul li:last-child {
 /* hero section */
 .hero {
   height: 700px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3)),
-    url("https://prod-website-backend-uploads.s3.eu-west-1.amazonaws.com/hero_image_1_5dd50208c8.jpeg?auto=format&fit=max&w=3840&q=100");
+  width: 100vw;
+  object-fit: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3)), url("https://prod-website-backend-uploads.s3.eu-west-1.amazonaws.com/hero_image_1_5dd50208c8.jpeg?auto=format&fit=max&w=3840&q=100");
   background-position: center;
   background-size: cover;
   position: relative;
   padding-top: 120px;
 }
 
-/* .overlay {
+.overlay {
     background: black;
     height: 100%;
     position: absolute;
@@ -73,7 +87,7 @@ nav ul li:last-child {
     width: 100%;
     z-index: 2;
     opacity: .3;
-} */
+}
 
 .hero h1 {
   font-size: 4.5rem;
