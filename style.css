@@ -100,11 +100,15 @@ nav ul li:last-child {
   color: #fff;
 }
 
-.hero-text p {
-  width: 40%;
-  line-height: 1.5;
-  font-weight: 600;
-  margin-bottom: 40px;
+.hero-text {
+  padding-bottom: 50px;
+
+  p {
+    width: 40%;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
 }
 
 .hero-text a {
@@ -190,22 +194,27 @@ nav ul li:last-child {
   background: #959492;
 }
 
-img{
-  max-width: 50px;
-}
-
 .number{
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 10px;
+  margin: 70px 0;
+  
+  img {
+    width: 60px;
+    height: auto;
+  }
+
   p{
     font-weight: 700;
+    font-size: 1.5rem;
     color: #fff;
   }
 
   .span {
-    font-weight: 500;
-    color: #D5D4C7;
+    font-weight: 600;
+    color: #979794;
   }
 }
 
