@@ -184,3 +184,41 @@ nav ul li:last-child {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
+.heroSection-3{
+  height: 100vh;
+  background: #959492;
+}
+
+img{
+  max-width: 50px;
+}
+
+.number{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  p{
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .span {
+    font-weight: 500;
+    color: #D5D4C7;
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+
+  .flex-bottom {
+    gap: 10px;
+    
+    img{
+      max-width: 210px;
+      max-height: 80px;
+    }
+  }
+}
