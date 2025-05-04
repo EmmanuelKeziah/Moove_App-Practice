@@ -122,7 +122,7 @@ nav ul li:last-child {
 }
 
 .contain {
-  padding: 0px 120px;
+  /* padding: 0px 120px; */
 }
 
 .btn {
@@ -230,4 +230,10 @@ nav ul li:last-child {
       max-height: 80px;
     }
   }
+}
+
+#heroSection-3 {
+  background-color: #959492;
+  margin: 0 auto;
+  
 }
