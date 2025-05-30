@@ -1,4 +1,4 @@
-## Disclaimer
+### Disclaimer
 
 This project is a frontend-only clone of an existing website and was created strictly for educational and personal learning purposes.
 
